@@ -1,10 +1,12 @@
 package com.driver.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.driver.Teacher;
 import com.driver.Repository.TeacherRepo;
 
+@Service
 public class TeacherService {
     @Autowired
     TeacherRepo teacherRepo;

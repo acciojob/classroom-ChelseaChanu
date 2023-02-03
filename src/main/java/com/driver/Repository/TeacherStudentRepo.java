@@ -2,6 +2,9 @@ package com.driver.Repository;
 
 import java.util.*;
 
+import org.springframework.stereotype.Repository;
+
+@Repository
 public class TeacherStudentRepo {
     HashMap<String,List<String>> teacherStudentDB = new HashMap<>();
 

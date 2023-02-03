@@ -3,9 +3,11 @@ package com.driver.Service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.driver.Repository.TeacherStudentRepo;
 
+@Service
 public class TeacherStudentService {
     
     @Autowired

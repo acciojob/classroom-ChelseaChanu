@@ -2,8 +2,11 @@ package com.driver.Repository;
 
 import java.util.*;
 
+import org.springframework.stereotype.Repository;
+
 import com.driver.Student;
 
+@Repository
 public class StudentRepo {
     List<Student> studentDB = new ArrayList<>();
 
