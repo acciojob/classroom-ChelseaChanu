@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.driver.Modal.Student;
+import com.driver.Student;
 import com.driver.Repository.StudentRepo;
 
 public class StudentService {

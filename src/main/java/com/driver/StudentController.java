@@ -1,4 +1,4 @@
-package com.driver.Controller;
+package com.driver;
 
 import java.util.List;
 
@@ -15,11 +15,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.driver.Modal.Teacher;
 import com.driver.Service.StudentService;
 import com.driver.Service.TeacherService;
 import com.driver.Service.TeacherStudentService;
-import com.driver.Modal.Student;
 
 @RestController
 @RequestMapping("students")

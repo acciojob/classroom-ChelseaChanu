@@ -2,7 +2,7 @@ package com.driver.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.driver.Modal.Teacher;
+import com.driver.Teacher;
 import com.driver.Repository.TeacherRepo;
 
 public class TeacherService {

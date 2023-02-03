@@ -2,7 +2,7 @@ package com.driver.Repository;
 
 import java.util.*;
 
-import com.driver.Modal.Student;
+import com.driver.Student;
 
 public class StudentRepo {
     List<Student> studentDB = new ArrayList<>();

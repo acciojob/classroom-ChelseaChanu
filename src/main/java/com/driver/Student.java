@@ -1,4 +1,4 @@
-package com.driver.Modal;
+package com.driver;
 
 public class Student {
 
